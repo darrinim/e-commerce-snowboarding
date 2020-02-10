@@ -1,0 +1,5 @@
+@media(max-width: 425px) {
+  .menu-overlay-test-content {
+    width: 100vw!important;
+  }
+}

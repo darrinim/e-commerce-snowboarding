@@ -6,6 +6,7 @@ import Menu from '../../components/Menu/menu';
 import BurgerIcon from '../../components/BurgerIcon/burgerIcon';
 import { Icon, InlineIcon } from '@iconify/react';
 import cartOutline from '@iconify/icons-mdi/cart-outline';
+import './nav.css';
 
 import StoreContext from '~/context/StoreContext'
 import {
@@ -23,6 +24,17 @@ const useQuantity = () => {
 	const total = reduce(items, (acc, item) => acc + item.quantity, 0)
 	return [total !== 0, total]
 }
+
+const contentStyle = {
+	background: "white",
+	height: "100vh",
+	width: "30vw",
+	// border: "1px solid black",
+	position: "absolute",
+	left: "0",
+	top: "0",
+	overflow: "hidden"
+};
 	
 
 
@@ -40,6 +52,9 @@ const Navigation = ({ siteTitle }) => {
 				<MenuTest>
 					<Popup
 						modal
+						className="menu-overlay-test"
+						repositionOnResize={true}
+						contentStyle={contentStyle}
 						closeOnDocumentClick={true}
 						trigger={open => <BurgerIcon open={open} />}
 					>

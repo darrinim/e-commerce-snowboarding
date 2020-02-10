@@ -14,9 +14,19 @@ export const Wrapper = styled.div`
   z-index: 99999;
 `
 
+const contentStyle = {
+	background: "white",
+	height: "100vh",
+	width: "30vw",
+	border: "1px solid black",
+	position: "absolute",
+	top: "0",
+	overflow: "hidden"
+};
+
 export const MenuTest = styled.div`
   // width: 80%;
-  // background-color: red;
+  background-color: red;
 `
 
 export const Container = styled.div`
