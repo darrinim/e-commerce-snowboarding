@@ -4,8 +4,19 @@ import { Link } from 'gatsby'
 import { breakpoints } from '../../utils/styles'
 
 export const Wrapper = styled.div`
-  background: rebeccapurple;
-  margin-bottom: 1.45rem;
+  background: white;
+  // margin-bottom: 1.45rem;
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+`
+
+export const MenuTest = styled.div`
+  // width: 80%;
+  // background-color: red;
 `
 
 export const Container = styled.div`
@@ -18,21 +29,35 @@ export const Container = styled.div`
 `
 
 export const MenuLink = styled(Link)`
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 2rem;
-  font-weight: bold;
+
+  
 
   @media (max-width: ${breakpoints.s}px){
     font-size: 1.4rem
   }
 `
 
+export const MenuLinkCart = styled(Link)`
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  position: fixed;
+  right: 20px;
+  top: 0.7em;
+
+
+
+  @media (max-width: ${breakpoints.s}px){
+    font-size: 1.4rem;
+    top: 0.9em;
+  }
+`
+
 export const CartCounter = styled.span`
-  background-color: white;
-  color: #663399;
-  border-radius: 20px;
-  padding: 0 10px;
+  color: black;
   font-size: 1.2rem;
   float: right;
   margin: -10px;

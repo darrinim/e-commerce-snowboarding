@@ -7,6 +7,7 @@ import ContextProvider from '~/provider/ContextProvider'
 
 import { GlobalStyle } from '~/utils/styles'
 import Navigation from '~/components/Navigation'
+import Landing from '../components/Landing/landing'
 
 const Wrapper = styled.div`
   margin: 0 auto;
@@ -31,12 +32,13 @@ const Layout = ({ children }) => {
         render={data => (
           <>
             <Navigation siteTitle={data.site.siteMetadata.title} />
+            <Landing />
             <Wrapper>
               {children}
               <footer>
-                © {new Date().getFullYear()}, Built with
+                © {new Date().getFullYear()}, Built by
                 {` `}
-                <a href="https://www.gatsbyjs.org">Gatsby</a>
+                <a target="blank" href="http://darrinim.com">Darrin Im</a>
               </footer>
             </Wrapper>
           </>
