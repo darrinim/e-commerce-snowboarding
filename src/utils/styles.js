@@ -37,6 +37,11 @@ export const Img = styled(Image)`
   padding-top: 0;
   margin-bottom: 1.45rem;
 `
+export const ImageWrap = styled.div`
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+`
 
 export const Container = styled.div`
   margin: 0 auto;

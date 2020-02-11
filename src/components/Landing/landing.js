@@ -5,7 +5,7 @@ const Landing = () => {
 
   return (
     <LandingWrap>
-        <LandingHero src="https://res.cloudinary.com/darrin-im/image/upload/v1581364883/ghostLanding_copy_famlds.jpg"/>
+        <LandingHero src="https://res.cloudinary.com/darrin-im/image/upload/v1581453945/ghostLanding_copy_2_r6aszv.jpg"/>
     </LandingWrap>
   )
 }

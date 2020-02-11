@@ -7,7 +7,7 @@ import ProductGrid from '~/components/ProductGrid'
 import Landing from '../components/Landing/landing'
 import '../components/Landing/landingStyles'
 import VisitShop from '../components/VisitShop/visitShop'
-import Team from '../components/Team/team'
+import SeeTeam from '../components/SeeTeam/seeTeam'
 
 const IndexPage = () => (
   <>
@@ -15,8 +15,8 @@ const IndexPage = () => (
     <Landing />
     <Wrapper>
       <VisitShop />
-      <Team />
     </Wrapper>
+    <SeeTeam />
     {/* <ProductGrid /> */}
     {/* <Link to="/page-2/">Go to page 2</Link> */}
   </>
