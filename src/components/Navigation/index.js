@@ -69,7 +69,7 @@ const Navigation = ({ siteTitle }) => {
 							{quantity}
 						</CartCounter>
 					}
-					Cart<Icon icon={cartOutline} style={{ position: "relative", top: "4px", padding: "0 4px"}}/>
+					<Icon icon={cartOutline} style={{ position: "relative", top: "4px", padding: "0 4px"}}/>
 				</MenuLinkCart>
 		</Wrapper>
 	)

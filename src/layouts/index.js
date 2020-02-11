@@ -11,9 +11,10 @@ import Landing from '../components/Landing/landing'
 
 const Wrapper = styled.div`
   margin: 0 auto;
-  max-width: 960px;
-  padding: 0px 1.0875rem 1.45rem;
+  // max-width: 960px;
+  // padding: 0px 1.0875rem 1.45rem;
 `
+
 
 const Layout = ({ children }) => {
   return (
@@ -31,11 +32,11 @@ const Layout = ({ children }) => {
         `}
         render={data => (
           <>
-            <Navigation siteTitle={data.site.siteMetadata.title} />
-            <Landing />
+            <Navigation siteTitle={data.site.siteMetadata.title} />            
             <Wrapper>
               {children}
-              <footer>
+            
+              <footer style={{maxWidth: "960px", padding: "0px 1.0875rem 1.45rem", margin: "0 auto" }}>
                 © {new Date().getFullYear()}, Built by
                 {` `}
                 <a target="blank" href="http://darrinim.com">Darrin Im</a>
