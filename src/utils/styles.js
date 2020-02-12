@@ -39,8 +39,29 @@ export const Img = styled(Image)`
 `
 export const ImageWrap = styled.div`
   position: relative;
-  max-width: 1200px;
   margin: 0 auto;
+  width: 100%;
+
+  // @media (max-width: ${breakpoints.l}px){
+  //   width: 970px
+  // }
+
+  // @media (max-width: ${breakpoints.ml}px){
+  //   width: 970px
+  // }
+
+`
+export const ContentContainer = styled.div`
+  // width: 1170px;
+    margin: 0 10rem;
+
+  // @media (max-width: ${breakpoints.l}px){
+  //   width: 970px
+  // }
+
+  @media (max-width: ${breakpoints.m}px){
+    margin: 0 3rem;
+  }
 `
 
 export const Container = styled.div`

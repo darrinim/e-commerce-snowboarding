@@ -16,6 +16,7 @@
 .shopLink {
   color: black;
   text-decoration: none;
+  font-family: "Antonio-Light", sans-serif;
 }
 .shopWrap > button:hover {
   /* color: red; */

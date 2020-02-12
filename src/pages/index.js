@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { Wrapper } from '~/utils/styles'
+import { Wrapper, ContentContainer } from '~/utils/styles'
 
 import SEO from '~/components/seo'
 import ProductGrid from '~/components/ProductGrid'
@@ -17,8 +17,10 @@ const IndexPage = () => (
     <Wrapper>
       <VisitShop />
     </Wrapper>
-    <SeeTeam />
-    <BoardBag />
+    <ContentContainer>
+      <SeeTeam />
+      <BoardBag />
+    </ContentContainer>  
     {/* <ProductGrid /> */}
     {/* <Link to="/page-2/">Go to page 2</Link> */}
   </>

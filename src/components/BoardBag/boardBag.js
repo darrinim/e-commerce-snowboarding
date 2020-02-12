@@ -14,7 +14,7 @@ const BoardBag = () => {
           <p><Link to="/team" className="team-link">Boards</Link></p>
         </BoardWrap>
         <BagWrap>
-          <img className="team-image" src="https://res.cloudinary.com/darrin-im/image/upload/v1581525224/goggles-man_tcixfs.jpg" />
+          <img className="team-image" src="https://res.cloudinary.com/darrin-im/image/upload/v1581536869/gogglestest_ufbk3a.jpg" />
           <p><Link to="/team" className="team-link">Goggles</Link></p>
         </BagWrap>
       </BoardBagWrap>

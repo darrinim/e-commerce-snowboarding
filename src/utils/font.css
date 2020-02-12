@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Antonio-Light";
+  /* src: url('./fonts/Antonio-Light.ttf') format('ttf'); */
+  src: url('../utils/font.css') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: "Helvetica Neue Medium";
+  src: url('./fonts/Helvetica Neue Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica Neue Thin";
+  src: url('./fonts/Helvetica Neue Thin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */
