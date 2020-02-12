@@ -11,6 +11,7 @@ module.exports = {
     author: `@darrinim`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-material-ui`,
     `gatsby-plugin-react-helmet`,
     {

@@ -8,6 +8,7 @@ import Landing from '../components/Landing/landing'
 import '../components/Landing/landingStyles'
 import VisitShop from '../components/VisitShop/visitShop'
 import SeeTeam from '../components/SeeTeam/seeTeam'
+import BoardBag from '../components/BoardBag/boardBag'
 
 const IndexPage = () => (
   <>
@@ -17,6 +18,7 @@ const IndexPage = () => (
       <VisitShop />
     </Wrapper>
     <SeeTeam />
+    <BoardBag />
     {/* <ProductGrid /> */}
     {/* <Link to="/page-2/">Go to page 2</Link> */}
   </>
