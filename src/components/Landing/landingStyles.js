@@ -32,4 +32,5 @@ export const Fog = styled.div`
   height: 100%;
   animation: fogAnimation 60s linear infinite;
   // box-shadow: 0 0 35px 100px white;
+  // for datadog test
 `
