@@ -20,16 +20,16 @@ export const LandingHero = styled.img`
 export const Fog = styled.div`
   background: url(https://res.cloudinary.com/darrin-im/image/upload/v1581567122/Pngtree_cloud_mountain_fog_white_smoke_3919122_fqqi8n.png);
   /* background-size: contain; */
-  background-repeat: repeat-x;
-  background-position: center;
+  // background-repeat: repeat-x;
+  // background-position: center;
   z-index: 9999;
   // opacity: 0.2;
   /* background-color: black; */
   /* border: 9px solid red; */
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 300vw;
   height: 100%;
   animation: fogAnimation 60s linear infinite;
+  // box-shadow: 0 0 35px 100px white;
 `
-
